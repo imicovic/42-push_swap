@@ -13,9 +13,9 @@ The program can take multiple arguments or a single variable containing all the 
 ARG="1 19 10 -18 298 1928 7 19"
 ./push_swap $ARG
 ```
-After being ran the program will print the operations takes to sort the stack. Operations are described in detail in the [subject](en.subject.pdf) page.<br>
 The repository also includes the "checker" programs provided by the school in order to test whether the program works properly. To test the program against them run
 ```bash
 ARG="1 19 10 -18 298 1928 7 19"
 ./push_swap $ARG | checker_OS $ARG
 ```
+After being ran the program will print the operations takes to sort the stack. Operations are described in detail in the [subject](en.subject.pdf) page.
